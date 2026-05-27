@@ -1,4 +1,4 @@
-import http.server
+
 import urllib.parse
 
 # This is the HTML page shown to the user
@@ -146,6 +146,5 @@ print(f"Server started!")
 print(f"Open your browser and go to:  http://localhost:{PORT}")
 print("Press Ctrl+C to stop the server.")
 
-server = http.server.HTTPServer(("", PORT), MyHandler)
-server.serve_forever()
+
         
