@@ -1,5 +1,6 @@
 import http.server
 import urllib.parse
+import streamlit as st
 
 # This is the HTML page shown to the user
 def get_html_page(message=""):
